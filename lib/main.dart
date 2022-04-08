@@ -61,13 +61,13 @@ class YourColorPage extends StatelessWidget {
       key: NavKeys.colorNav,
       onGenerateRoute: (RouteSettings route) {
         if (route.name == ColorPage2.routeName) {
-          return PageRouteBuilder(
+          return MaterialPageRoute(
             settings: RouteSettings(name: ColorPage2.routeName),
-            pageBuilder: (BuildContext context, _, __) => ColorPage2(),
+            builder: (_) => ColorPage2(),
           );
         }
-        return PageRouteBuilder(
-          pageBuilder: (BuildContext context, _, __) => ColorPage(),
+        return MaterialPageRoute(
+          builder: (_) => ColorPage(),
         );
       },
     );
