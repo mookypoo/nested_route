@@ -1,6 +1,6 @@
 # nested_bottom_sheet
-
-A new Flutter project.
+(1) nested routes using navigator keys
+(2) custom bottom sheet using stack
 
 ## Getting Started
 
